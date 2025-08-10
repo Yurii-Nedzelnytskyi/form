@@ -1,0 +1,82 @@
+body {
+  padding: 100px;
+  font-family: sans-serif;
+  color: blue;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #b8adad;
+  padding: 20px;
+  border: 2px solid #b81313;
+  border-radius: 11px;
+}
+
+.form_row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+
+.my_input {
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  color:#b81313;
+}
+
+.gender {
+  margin-right: 50px;
+}
+
+.my_radio{
+    accent-color: #b81313;
+
+}
+
+.my_checkbox {
+  accent-color: #b81313;
+}
+
+.age {
+  height: 25px;
+  width: 40px;
+  margin-right: 159px;
+  border-radius: 5px;
+ color:#b81313;
+}
+
+.my_select {
+    height: 35px;
+  width: 206px;
+  border-radius: 5px;
+  color:#b81313;
+}
+.my_textarea{
+    width: 200px;
+    height: 55px;
+  border-radius: 5px;
+ color:#b81313;
+}
+
+textarea::placeholder{
+  color: rgb(132, 132, 206);
+}
+
+.my_buttons {
+display: flex;
+justify-content: end;
+  margin: 10px 50px;
+  border-radius: 5px;
+}
+
+.my_button {
+  margin-right: 30px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #b81313;
+}

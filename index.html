@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <form action="">
+    <div class="form_row" >
+      <label for="name">Повне ім'я</label>
+      <input type="text" name="name" id="name" class="my_input">
+    </div>
+    <div class="form_row">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" class="my_input">
+    </div>
+    <div class="form_row">
+      <label for="password">Пароль</label>
+      <input type="password" name="password" id="password" class="my_input">
+    </div>
+    <div class="form_row">
+      <label for="password_agan">Пароль ще раз</label>
+      <input type="password" name="password_agan" id="password_agan" class="my_input">
+    </div>
+    <div class="form_row">
+      <span>Стать</span>
+      <div class="gender">
+        <label>
+          <input type="radio" name="gender" value="man" checked class="my_radio">чоловіча
+        </label>
+        
+        <label>
+          <input type="radio" name="gender" value="woman" class="my_radio">жіноча
+        </label>
+      </div>
+    </div>
+    <div class="form_row">
+      <label for="age">Вік</label>
+      <input type="number" name="age" id="age" min="0" step="1" class="age">
+    </div>
+    <div class="form_row">
+      <label for="select">Курс</label>
+      <select name="select" id="select" class="my_select">
+        <option value="" selected disabled>Виберіть курс</option>
+        <option value="front-end">front-End</option>
+        <option value="back-end">Back-End</option>
+        <option value="project management">Project Management</option>
+        <option value="qa manual">QA Manual</option>
+      </select>
+    </div>
+    <div class="form_row">
+      <label for="textarea">Повна адреса</label>
+      <textarea name="textarea" id="textarea" class="my_textarea" placeholder="Країна, регіон,місто/селище вулиця"></textarea>
+    </div>
+    <div class="form_row">
+      <label for="">
+        <input type="checkbox" name="agree" required class="my_checkbox">Я погоджуюсь з обробкою персональних даних
+      </label>
+    </div>
+    <div class="my_buttons">
+      <input type="reset" name="reset" value="Очистити форму" class="my_button">
+      <input type="button" name="register" value="Зареєструватися" class="my_button">
+    </div>
+
+  </form>
+</body>
+
+</html>
